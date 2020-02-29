@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px  black;
+          box-shadow: 2px 2px  black;
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.navbar navbar .logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.navbar navbar .search {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin-top: 20px;
+}
+
+.navbar navbar .search .search-bar {
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  outline: none;
+  -webkit-box-shadow: 2px 2px 1px black;
+          box-shadow: 2px 2px 1px black;
+  padding: 20px;
+}
+
+.navbar navbar .button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: 20px;
+}
+
+.navbar navbar .button .button-bar {
+  padding: 20px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #FADC9C;
+}
+
+.add-list {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  z-index: 99;
+  display: none;
+}
+
+.add-list .form {
+  -webkit-transform: translate(0%, 70%);
+          transform: translate(0%, 70%);
+  width: 50%;
+  margin: auto;
+  padding: 80px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.add-list .form h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.add-list .form input {
+  display: block;
+  width: 80%;
+  border-radius: 10px;
+  outline: none;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 20px 20px;
+}
+
+.add-list .form .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+}
+
+.add-list .form #button-create {
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #FADC9C;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.edit-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  z-index: 20;
+  display: none;
+}
+
+.edit-list h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.edit-list .form {
+  -webkit-transform: translate(0%, 70%);
+          transform: translate(0%, 70%);
+  width: 50%;
+  margin: auto;
+  padding: 80px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.edit-list .form input {
+  display: block;
+  width: 80%;
+  border-radius: 10px;
+  outline: none;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 20px 20px;
+}
+
+.edit-list .form .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+}
+
+.edit-list .form #button-edit {
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #FADC9C;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.main-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-page ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+.main-page h1 {
+  margin-bottom: 20px;
+  background-color: #FADC9C;
+  padding: 20px 0;
+}
+
+.main-page .no {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main-page .no h1 {
+  border-radius: 20px 0 0 20px;
+}
+
+.main-page .cashier {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main-page .product {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main-page .category {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main-page .price {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main-page .action {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.main-page .action h1 {
+  border-radius: 0 20px 20px 0;
+}
+/*# sourceMappingURL=app.css.map */
