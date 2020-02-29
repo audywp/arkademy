@@ -8,3 +8,5 @@ soal bootcamp arkademy
 * Setiap file dapat di jalankan di browser console
 
 berikut screenshot untuk soal soal nomor 6
+
+![](images/6.A.jpg)
